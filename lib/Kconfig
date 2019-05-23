@@ -1,0 +1,13 @@
+#
+# For a description of the syntax of this configuration file,
+# see Documentation/kbuild/kconfig-language.txt.
+#
+
+menu "Library"
+
+config BISCUITOS_RBTREE
+	bool "rbtree"
+	help
+	  RBTree library.
+
+endmenu
